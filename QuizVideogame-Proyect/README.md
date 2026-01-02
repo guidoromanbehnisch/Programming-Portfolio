@@ -24,12 +24,3 @@ git clone https://github.com/luvlsco/UTN-PROG-Segundo-Parcial-Preguntados.git
 ```bash
 python play.py
 ```
-
-## Miembros
-<a href="https://github.com/luvlsco/UTN-PROG-Segundo-Parcial-Preguntados/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=luvlsco/UTN-PROG-Segundo-Parcial-Preguntados" />
-</a>
-
-* Lucas Velasco - [@luvlsco](https://github.com/luvlsco)  
-* Guido Roman Behnisch - [@guidoromanbehnisch](https://github.com/guidoromanbehnisch)  
-* Martin Esquivel - [@martinsznesquivel](https://github.com/martinsznesquivel)
