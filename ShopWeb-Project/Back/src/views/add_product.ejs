@@ -1,0 +1,25 @@
+<%- include("partials/head.ejs") %>
+<script defer src="/js/add_product.js"></script>
+<link rel="stylesheet" href="css/add_product.css">
+<%- include("partials/nav.ejs")  %>
+    <main>
+        <section id="add_product_box">
+            <h2>Alta producto</h2>
+            <form id = "form_add_product">
+                <input type="text" name="name" id="name" placeholder="Nombre" required>
+                <input type="text" name="price" id="price" placeholder="Precio" required>
+                <input type="text" name="route_img" id="route_img" placeholder="Imagen" required>
+                <select name="category" id="category">
+                    <option value="keyboard">Teclado</option>
+                    <option value="mouse">Mouse</option>
+                </select>
+                <select name="active" id="active">
+                    <option value="1">Activo</option>
+                    <option value="0">Inactivo</option>
+    
+                </select>
+                <input type="submit" id="submit_button">
+            </form>
+
+        </section>
+<%- include("partials/footer.ejs") %>

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single&display=swap');
+
+:root{
+    --blue-background-nav: #0477bf;
+    /*Hacer un var para la fuente*/
+}
+
+body{margin: 2rem;
+background-color: #4A51D9;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0.5rem 1rem;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /*leve sombra para genera separación*/
+    border-radius: 10px;
+    font-family: 'Bitcount Grid Single', sans-serif;
+    color: var(--blue-background-nav)
+}
+
+
+
+.title{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+#image_icon{
+    width: 5.5rem;
+}
+
+#menu_container a{
+    margin-left: 10rem;
+    text-decoration: none;
+    color: var(--blue-background-nav);
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+
+
+#home{
+    width: 6rem;
+}
+
+main {
+    background-color: white;                
+    padding: 30px;/* margen interior */                   
+    margin: 20px; /* separación externa */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#delete_product_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    width: auto;
+    height: 20rem;
+    margin-top: 1rem;
+    font-family: 'Bitcount Grid Single', sans-serif;
+    color: var(--blue-background-nav);
+}
+
+#delete_product_box h2{
+    font-size: 2.5rem;
+}
+#delete_product_box input{
+    font-size: 1.2rem;
+}
+
+#submit_button{
+    background-color: #4A51D9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+    
+}
+
+#form_to_delete{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+#form_to_delete input,select{
+    font-size: 1.2rem;
+}
+
+#delete_Button{
+    background-color: #4A51D9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+}

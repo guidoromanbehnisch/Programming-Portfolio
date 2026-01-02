@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Guido",
+        "puntuacion": 2000
+    },
+    {
+        "nombre": "beto",
+        "puntuacion": 1000
+    },
+    {
+        "nombre": "capo mal",
+        "puntuacion": 30
+    },
+    {
+        "nombre": "martin v2",
+        "puntuacion": 25
+    },
+    {
+        "nombre": "",
+        "puntuacion": 20
+    },
+    {
+        "nombre": "lau",
+        "puntuacion": 20
+    },
+    {
+        "nombre": "",
+        "puntuacion": 2
+    }
+]

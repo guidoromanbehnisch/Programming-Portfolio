@@ -1,0 +1,33 @@
+<%- include("partials/head.ejs") %>
+<link rel="stylesheet" href="/css/login_admin.css">
+
+<script defer src="/js/login_admin.js"></script>
+    <header>
+        <nav>
+            <div class="title">
+                <img id = "image_icon"src="..\..\img\gear.png" alt="Icon">
+                <h1>GEAR UP</h1>
+            </div>
+            <h2>Ezequiel y Guido</h2>
+            <div id = "menu">
+                <a href="/">
+                    <img id="home" src="..\..\img\home.png" alt="">
+                </a>
+            </div>
+        </nav>
+        
+    </header>
+    <section>
+        <div class = "home_box">
+            <h3>Ingrese su email y contrasena</h3>
+            <input type="text" id="inputMail" placeholder="Correo">
+            <input type="text" id="inputPassword" placeholder="Contraseña">
+            
+            <div id = "buttons_home">
+                <button id="button_accept">Aceptar</button>
+                <button id="button_cancel">Cancelar</button>
+            </div>
+        </div>
+    </section>
+    
+<%- include("partials/footer.ejs") %>

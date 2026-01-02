@@ -1,0 +1,16 @@
+<%- include("partials/head.ejs") %>
+<link rel="stylesheet" href="css/delete_product.css">
+<script defer src="/js/delete_product.js"></script>
+<%- include("partials/nav.ejs")  %>
+    <main>
+        <form id="delete_product_box">
+            <h2>Eliminar Producto</h2>
+            <input type="text" name="id" id="id" placeholder="id" required>
+            <input type="submit" id="submit_button" value="Buscar">
+
+        </form>
+        <section id="formDelete">
+            
+        </section>
+    
+<%- include("partials/footer.ejs") %>

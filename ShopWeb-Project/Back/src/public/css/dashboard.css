@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single&display=swap');
+
+:root{
+    --blue-background-nav: #0477bf;
+    /*Hacer un var para la fuente*/
+}
+
+body{margin: 2rem;
+background-color: #4A51D9;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0.5rem 1rem;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /*leve sombra para genera separación*/
+    border-radius: 10px;
+    font-family: 'Bitcount Grid Single', sans-serif;
+    color: var(--blue-background-nav)
+}
+
+/*seccion productos*/
+
+main {
+    background-color: white;                
+    padding: 30px;/* margen interior */                   
+    margin: 20px; /* separación externa */
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+#image_icon{
+    width: 5.5rem;
+}
+
+#menu{
+    display: flex;
+    
+    gap: 20px;
+}
+#menu_container a{
+    margin-left: 10rem;
+    text-decoration: none;
+    color: var(--blue-background-nav);
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+
+
+#home{
+    width: 6rem;
+}
+
+/* cards productos*/
+#listProducts {
+    flex: 1;                  /* ocupa todo el espacio sobrante */
+    display: flex;            /* organiza las cartas en fila */
+    flex-wrap: wrap;          /* pasa a otra línea si no entran */
+    gap: 20px;                /* espacio entre cartas */
+    justify-content: center; /* alinea a la izquierda */
+}
+
+.card-products {
+    background-color: #fff;          /* fondo blanco */
+    border-radius: 10px;             /* bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* sombra suave */
+    padding: 15px;                   /* espacio interno */
+    text-align: center;              /* centra el texto */
+    width: 300px;                    /* ancho fijo */
+}
+.card-products img {
+    width: 12rem;             /* ocupa todo el ancho */
+    height: 150px;           /* altura fija */
+    border-radius: 10px;     /* esquinas redondeadas */
+    margin-bottom: 10px;     /* separa del texto */
+}
