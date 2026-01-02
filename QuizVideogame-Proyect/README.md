@@ -6,21 +6,7 @@
     <a target="_blank" rel="noopener noreferrer" href="https://www.pygame.org/news"><img alt="Enlace a Pygame"title="Pygame" src="https://www.pygame.org/docs/_static/pygame_powered.svg" width="240"></a>
 </h1>
 
-<p align="center">
-  <a href="#introducción">Introducción</a> •
-  <a href="#descargar">Descargar</a> •
-  <a href="#miembros">Miembros</a>
-</p>
 
-## Introducción
+## INFORMACION
 El juego consiste en una serie de preguntas las cuales tienen cuatro posibles opciones de respuesta, siendo una la correcta, en caso de acertar, el jugador ganará un punto y, caso contrario, perderá una de sus tres vidas. Si el jugador pierde todas sus vidas se dará por terminada la partida, teniendo la opción de ingresar su nombre para, de esta manera, guardar su puntaje en un ranking TOP 10.
 
-## Descargar
-* Clonar el repositorio
-```bash
-git clone https://github.com/luvlsco/UTN-PROG-Segundo-Parcial-Preguntados.git
-```
-* Ejecutar el iniciador del juego
-```bash
-python play.py
-```
